@@ -18,7 +18,6 @@ class MainController extends Controller
     }
 <?php
 
-    //an example is in app/controllers/UsersController
     public function index()
     {
         $userModel = new User();
@@ -36,6 +35,7 @@ class MainController extends Controller
     public function notFound() {
         //todo create a 404 twig template in app/public/assets/views
         //and return it from this method
+        //an example is in app/controllers/UsersController
         return index(); 
     }
 
