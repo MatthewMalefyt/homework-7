@@ -28,4 +28,3 @@ use app\models\User;
 }
 
 
-}
