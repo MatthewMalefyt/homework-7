@@ -13,6 +13,15 @@ namespace app\controllers;
 use app\core\Controller;
 use app\models\User;
 
+<?php
+
+namespace app\models;
+
+class Post
+{
+
+}
+
     public function index()
     {
         $userModel = new User();
