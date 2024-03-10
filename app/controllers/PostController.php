@@ -28,7 +28,6 @@ namespace app\models;
             'users' => $userModel->getAllUsers(),
         ];
         echo $template->render($homepageData);
-        $name = $_POST['fname'];
         echo $name;
     }
 
