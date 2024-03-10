@@ -17,10 +17,6 @@ use app\models\User;
 
 namespace app\models;
 
-class Post
-{
-
-}
 
     public function index()
     {
@@ -32,6 +28,8 @@ class Post
             'users' => $userModel->getAllUsers(),
         ];
         echo $template->render($homepageData);
+        $name = $_POST['fname'];
+        echo $name;
     }
 
 }
