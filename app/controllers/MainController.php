@@ -18,10 +18,6 @@ class MainController extends Controller
     }
 <?php
 
-namespace app\controllers;
-use app\core\Controller;
-use app\models\User;
-
     //an example is in app/controllers/UsersController
     public function index()
     {
