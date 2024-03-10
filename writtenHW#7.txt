@@ -1,0 +1,24 @@
+2. PHP (Hypertext Preprocessor) and JavaScript
+Similarities:
+Ubiquitous: They are both widely used programming languages in web development.
+
+Web Page Functionality: They can both be embedded within HTML to add dynamic functionality to web pages.
+
+Manipulate Data: They can retrieve or manipulate data through interacting with libraries.
+
+
+Differences:
+Server-side v.s Client-side: PHP (server-side language) runs on the web server and generates dynamic content before sending it to the coder's browser. 
+On the other hand, JavaScript (client-side language) runs in the browser after the HTML has been loaded.
+
+Execution: PHP code is executed using a web server with PHP installed, while JavaScript is executed 
+within the web browser.
+
+
+3. MVC (Model-View-Controller) is a design structure commonly 
+used in software development, especially in web applications. 
+It helps to organize code into three interconnected parts,
+each with its own responsibilities:
+Model: affects what the user will see and manipulated by the controller
+View: what the user sees based on the model
+Controller: what is used by the user
