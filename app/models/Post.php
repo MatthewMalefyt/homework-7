@@ -4,5 +4,18 @@ namespace app\models;
 
 class Post
 {
-  return array("brand"=>"Ford", "model"=>"Mustang", "year"=>1964);
+    public function getAllPosts() {
+        return [
+            [
+                'id' => '1',
+                'title' => 'a title',
+                'views' => '100'
+            ],
+            [
+                'id' => '2',
+                'title' => 'a second title',
+                'views' => '250'
+            ]
+        ];
+    }
 }
