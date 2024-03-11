@@ -16,27 +16,18 @@ class MainController extends Controller
 
         echo $template->render($homepageData);
     }
-<?php
 
-    public function index()
-    {
-        $userModel = new User();
-        //the load method will start at the public/assets/views directory
-        //you can view the set up in the app/core/Controller class
-        $template = $this->twig->load('users/users.twig');
-        $homepageData = [
-            'users' => $userModel->getAllUsers(),
-        ];
-        echo $template->render($homepageData);
-    }
-
-}
 
     public function notFound() {
         //todo create a 404 twig template in app/public/assets/views
         //and return it from this method
         //an example is in app/controllers/UsersController
-        return index(); 
+         $template = $this->twig->load('404/error404template.twig');
+        $ErrorData = [
+            'title' => '404 Not Found',
+        ];
+
+        echo $template->render($ErrorData);
     }
 
 }
